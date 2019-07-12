@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="20dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="84dp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="9dp"
+        android:layout_alignTop="@id/tv_1"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:text="时间" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@id/imageView"
+        android:layout_toRightOf="@id/imageView"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        tools:text="123156456123"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:text="你好"
+        android:textSize="24dp"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_alignLeft="@id/tv_1"
+        android:layout_alignBottom="@id/imageView"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>
